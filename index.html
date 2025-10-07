@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PumpFun Bitcoin (PFB) 💥</title>
+    <meta name="description" content="PumpFun Bitcoin (PFB) — the coin that pumps for fun. Join the next viral meme coin revolution. 🚀">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(circle at top, #0a0a0a, #000);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* HERO SECTION */
+        header {
+            text-align: center;
+            padding: 120px 20px 100px;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            animation: pulse 3s infinite ease-in-out;
+            filter: drop-shadow(0 0 20px rgba(255, 179, 0, 0.5));
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.9; }
+            50% { transform: scale(1.1); opacity: 1; }
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #ffb300;
+            text-shadow: 0 0 20px rgba(255, 179, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #bbb;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .buy-btn {
+            display: inline-block;
+            padding: 18px 50px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            background: linear-gradient(45deg, #ffb300, #ff6f00);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 0 25px rgba(255, 179, 0, 0.4);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            margin-bottom: 20px;
+        }
+
+        .buy-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 50px rgba(255, 179, 0, 0.9);
+        }
+
+        .contract-address {
+            font-size: 0.95rem;
+            color: #ccc;
+            letter-spacing: 0.5px;
+            background: rgba(255, 255, 255, 0.05);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 179, 0, 0.2);
+            backdrop-filter: blur(4px);
+        }
+
+        .contract-address span {
+            color: #ffb300;
+            font-weight: 600;
+        }
+
+        /* CONTENT SECTIONS */
+        section {
+            max-width: 900px;
+            margin: 100px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #ffb300;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            color: #ddd;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .tokenomics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .tokenomics div {
+            background: #111;
+            border: 1px solid #222;
+            padding: 20px;
+            border-radius: 15px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(255, 179, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .tokenomics div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(255, 179, 0, 0.3);
+        }
+
+        /* ROADMAP */
+        .roadmap {
+            background: #0f0f0f;
+            border-radius: 20px;
+            padding: 40px 20px;
+            box-shadow: 0 0 20px rgba(255, 179, 0, 0.1);
+        }
+
+        .roadmap ul {
+            list-style: none;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .roadmap li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .roadmap li::before {
+            content: "🚀";
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            color: #777;
+            font-size: 0.9rem;
+            border-top: 1px solid #111;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            .tokenomics div {
+                width: 100%;
+            }
+            .hero-logo {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="Bitcoin Logo" class="hero-logo" />
+    <h1>PumpFun Bitcoin (PFB) 💥</h1>
+    <p>The coin that’s here to pump... for fun. Not financial advice.</p>
+
+    <!-- BUY BUTTON -->
+    <div>
+        <a class="buy-btn" href="YOUR_PUMPFUN_LINK_HERE" target="_blank">BUY NOW 🚀</a>
+    </div>
+
+    <!-- CONTRACT ADDRESS BELOW -->
+    <div class="contract-address">
+        <span>CA:</span> YOUR_CONTRACT_ADDRESS_HERE
+    </div>
+</header>
+
+<section>
+    <h2>What is PFB?</h2>
+    <p>PFB isn’t just another meme coin. It’s Bitcoin’s funny younger cousin who skipped economics class but still believes in the pump.</p>
+    <div class="tokenomics">
+        <div><strong>🪙 Supply:</strong><br>69,420,000,000</div>
+        <div><strong>🔥 Tax:</strong><br>0% Buy / Sell</div>
+        <div><strong>💧 Liquidity:</strong><br>Too big to show</div>
+        <div><strong>⚡ Network:</strong><br>Solana</div>
+    </div>
+</section>
+
+<section class="roadmap">
+    <h2>Roadmap (Totally Serious Plans) 📜</h2>
+    <ul>
+        <li>Phase 1: Launch. Pump.</li>
+        <li>Phase 2: Get tweeted by Elon (manifesting).</li>
+        <li>Phase 3: Take over CoinMarketCap memes section.</li>
+        <li>Phase 4: Everyone rich. Or not. Still fun.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>🚨 This is a meme coin. Don’t mortgage your house. 🚨</p>
+    <p>© 2025 PumpFun Bitcoin (PFB)</p>
+</footer>
+</body>
+</html>
