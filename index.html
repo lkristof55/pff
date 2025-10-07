@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/png" href="Bitcoin.png">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PumpFun Bitcoin (PFB) 💥</title>
@@ -18,6 +19,34 @@
             background: radial-gradient(circle at top, #0a0a0a, #000);
             color: white;
             overflow-x: hidden;
+        }
+
+        /* X BUTTON (TEXT VERSION) */
+        .x-button {
+            position: fixed;
+            top: 20px;
+            right: 25px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .x-button:hover {
+            background: #ffb300;
+            color: #000;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 179, 0, 0.6);
         }
 
         /* HERO SECTION */
@@ -191,6 +220,10 @@
     </style>
 </head>
 <body>
+
+<!-- X BUTTON (TEXT ONLY) -->
+<a href="https://x.com/i/communities/1975632090356998577" target="_blank" class="x-button" title="Join our X Community">X</a>
+
 <header>
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="Bitcoin Logo" class="hero-logo" />
     <h1>PumpFun Bitcoin (PFB) 💥</h1>
@@ -198,12 +231,12 @@
 
     <!-- BUY BUTTON -->
     <div>
-        <a class="buy-btn" href="YOUR_PUMPFUN_LINK_HERE" target="_blank">BUY NOW 🚀</a>
+        <a class="buy-btn" href="https://pump.fun/coin/BoGPDMsQPjdCXCQgmgh7TFMB7XwzfEhiEFQQA4S5t22a" target="_blank">BUY NOW 🚀</a>
     </div>
 
     <!-- CONTRACT ADDRESS BELOW -->
-    <div class="contract-address">
-        <span>CA:</span> YOUR_CONTRACT_ADDRESS_HERE
+    <div class="BoGPDMsQPjdCXCQgmgh7TFMB7XwzfEhiEFQQA4S5t22a">
+        <span>CA:</span> BoGPDMsQPjdCXCQgmgh7TFMB7XwzfEhiEFQQA4S5t22a
     </div>
 </header>
 
@@ -213,7 +246,7 @@
     <div class="tokenomics">
         <div><strong>🪙 Supply:</strong><br>69,420,000,000</div>
         <div><strong>🔥 Tax:</strong><br>0% Buy / Sell</div>
-        <div><strong>💧 Liquidity:</strong><br>Too big to show</div>
+        <div><strong>💧 Liquidity:</strong><br>Too liquid to show</div>
         <div><strong>⚡ Network:</strong><br>Solana</div>
     </div>
 </section>
@@ -232,5 +265,6 @@
     <p>🚨 This is a meme coin. Don’t mortgage your house. 🚨</p>
     <p>© 2025 PumpFun Bitcoin (PFB)</p>
 </footer>
+
 </body>
 </html>
